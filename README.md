@@ -4,7 +4,7 @@
 
 Minimalist desktop tool for generating CSS class names. Built with [Electron](https://github.com/electron/electron).
 
-### Features
+### ✨ Features
 
 - **One-click** generation.
 - **Auto-copy** — the class is automatically copied to the clipboard upon generation, or you can use the <code>COPY</code> button to copy it manually.
@@ -15,12 +15,49 @@ Minimalist desktop tool for generating CSS class names. Built with [Electron](ht
 <img src="https://raw.githubusercontent.com/AndrewShedov/class-generator/refs/heads/main/assets/gif.gif"/>
 </p>
 
-### Installation
+### 🚀 Installation
 
 Download the latest version for your OS from the [Releases](https://github.com/AndrewShedov/class-generator/releases) page:
 
 - 🪟 [Class Generator.exe](https://github.com/AndrewShedov/class-generator/releases/download/v1.0.0/Class.Generator.exe) (Windows Portable)
 - 🐧 [Class Generator.deb](https://github.com/AndrewShedov/class-generator/releases/download/v1.0.0/Class.Generator.deb) (Linux Debian/Ubuntu)
+
+
+### 🛠️ Customization
+
+If you want to tailor the tool to your specific needs, you can easily modify the source code:
+
+- **Adjust Generation Logic:** Update the <code>const classLength</code> to change the number of characters, or modify the <code>const chars</code> string to change the available character pool in <code>[index.html](https://github.com/AndrewShedov/class-generator/blob/main/index.html)</code>.
+
+- **Toggle "Always on Top":** In <code>[main.js](https://github.com/AndrewShedov/class-generator/blob/main/main.js)</code>, you can change alwaysOnTop: true to false if you don't want the window to stay above other applications.
+
+#### How to apply changes:
+
+1. Download the [Source code](https://github.com/AndrewShedov/class-generator/archive/refs/tags/v1.0.0.zip).
+
+2. Open the project folder in your terminal.
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Build the application for your OS:
+
+Windows:
+
+```bash
+npm run build:win
+```
+
+Linux:
+
+```bash
+npm run build:linux
+```
+
+After the build finishes, your custom executable will be waiting in the dist folder. All other files can be deleted.
 
 [![SHEDOV.TOP](https://img.shields.io/badge/SHEDOV.TOP-black?style=for-the-badge)](https://shedov.top/) 
 [![CRYSTAL](https://img.shields.io/badge/CRYSTAL-black?style=for-the-badge)](https://crystal.you/AndrewShedov)
