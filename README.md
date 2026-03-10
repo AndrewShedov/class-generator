@@ -1,1 +1,1 @@
-# class-generator
+1

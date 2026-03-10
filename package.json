@@ -5,7 +5,8 @@
   "description": "Minimalist CSS class generator",
   "author": {
     "name": "Andrew Shedov",
-    "url": "https://shedov.top"
+    "url": "https://shedov.top",
+    "email": "example@example.com"
   },
   "homepage": "https://github.com/AndrewShedov/class-generator",
   "license": "MIT",
