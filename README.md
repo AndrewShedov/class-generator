@@ -33,7 +33,7 @@ If you want to tailor the tool to your specific needs, you can easily modify the
 
 #### How to apply changes:
 
-1. Download the [Source code](https://github.com/AndrewShedov/class-generator/archive/refs/tags/v1.0.0.zip).
+1. Download the [source code](https://github.com/AndrewShedov/class-generator/archive/refs/tags/v1.0.0.zip).
 
 2. Open the project folder in your terminal.
 
