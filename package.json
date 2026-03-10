@@ -1,0 +1,36 @@
+{
+  "name": "class-generator",
+  "version": "1.0.0",
+  "main": "main.js",
+  "description": "Minimalist CSS class generator",
+  "author": {
+    "name": "Andrew Shedov",
+    "url": "https://shedov.top"
+  },
+  "homepage": "https://github.com/AndrewShedov/class-generator",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-builder --win portable",
+    "build:linux": "electron-builder --linux deb"
+  },
+  "build": {
+    "appId": "top.shedov.class-generator",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "win": {
+      "icon": "build/icon.ico",
+      "artifactName": "Class Generator.${ext}"
+    },
+    "linux": {
+      "icon": "build/icon.png",
+      "artifactName": "Class Generator.${ext}"
+    }
+  },
+  "devDependencies": {
+    "electron": "^40.8.0",
+    "electron-builder": "^26.8.1"
+  }
+}
