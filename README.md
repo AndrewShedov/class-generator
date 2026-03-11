@@ -29,7 +29,7 @@ If you want to tailor the tool to your specific needs, you can easily modify the
 
 - **Adjust Generation Logic:** Update the <code>const classLength</code> to change the number of characters, or modify the <code>const chars</code> string to change the available character pool in <code>[renderer.js](https://github.com/AndrewShedov/class-generator/tree/main/js)</code>.
 
-- **Toggle "Always on Top":** In <code>[main.js](https://github.com/AndrewShedov/class-generator/blob/main/main.js)</code>, you can change alwaysOnTop: true to false if you don't want the window to stay above other applications.
+- **Toggle "Always on Top":** In <code>[main.js](https://github.com/AndrewShedov/class-generator/blob/main/main.js)</code>, you can change <code>alwaysOnTop: false</code> to <code>true</code> if you want the window to stay above other applications.
 
 #### How to apply changes:
 
