@@ -17,7 +17,7 @@ Minimalist desktop tool for generating CSS class names. Built with [Electron.js]
 
 ### 🚀 Installation
 
-Download the latest version for your OS from the [Releases](https://github.com/AndrewShedov/class-generator/releases) page:
+Download the latest version for your OS from the [Releases page](https://github.com/AndrewShedov/class-generator/releases):
 
 - 🪟 [Class Generator.exe](https://github.com/AndrewShedov/class-generator/releases/download/v1.0.0/Class.Generator.exe) (Windows Portable)
 - 🐧 [Class Generator.deb](https://github.com/AndrewShedov/class-generator/releases/download/v1.0.0/Class.Generator.deb) (Linux Debian/Ubuntu)
