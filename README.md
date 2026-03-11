@@ -58,6 +58,7 @@ npm run build:linux
 ```
 
 After the build finishes, your custom executable will be waiting in the dist folder. All other files can be deleted.
+<br>
 
 [![SHEDOV.TOP](https://img.shields.io/badge/SHEDOV.TOP-black?style=for-the-badge)](https://shedov.top/) 
 [![CRYSTAL](https://img.shields.io/badge/CRYSTAL-black?style=for-the-badge)](https://crystal.you/AndrewShedov)
