@@ -8,7 +8,7 @@ Minimalist desktop tool for generating CSS class names. Built with [Electron.js]
 
 - **One-click** generation.
 - **Auto-copy** — the class is automatically copied to the clipboard upon generation, or you can use the <code>COPY</code> button to copy it manually.
-- **High collision resistance** — with a 10-character length and a pool of 62 characters, there are approximately **700 quadrillion ($$7 \times 10^{17}$$)** possible combinations. Even if you generate one class every second, it would take about **22 billion years** for a significant chance of a collision to occur. The probability of a duplicate in a real-world project is practically zero.
+- **High collision resistance** — with a 10-character (<code>hT5rIQCYq8</code>) length and a pool of 62 characters, there are approximately **700 quadrillion ($$7 \times 10^{17}$$)** possible combinations. Even if you generate one class every second, it would take about **22 billion years** for a significant chance of a collision to occur. The probability of a duplicate in a real-world project is practically zero.
 - **Portable** — no installation required. Just run the executable.
 
 <p align="center">
