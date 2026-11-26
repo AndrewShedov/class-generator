@@ -4,8 +4,9 @@ const path = require('path');
 function createWindow() {
   const win = new BrowserWindow({
     width: 250,
-    height: 200,
-    title: "Class Generator",
+    height: 335,
+    useContentSize: true,
+    title: 'Class Generator',
     resizable: false,
     alwaysOnTop: false,
     autoHideMenuBar: true,
@@ -23,4 +24,10 @@ app.whenReady().then(createWindow);
 
 ipcMain.on('copy', (event, text) => {
   clipboard.writeText(text);
+});
+
+app.on('window-all-closed', () => {
+  if (process.platform !== 'darwin') {
+    app.quit();
+  }
 });
